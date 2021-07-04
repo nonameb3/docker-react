@@ -5,7 +5,7 @@ language: generic
 services:
   - docker
 
-before-install:
+before_install:
   - docker build -t nonameb3/docker-react -f Dockerfile.dev .
 
 script:
